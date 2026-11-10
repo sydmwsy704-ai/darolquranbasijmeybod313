@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#064c3b">
+<title>دارالقرآن بسیج میبد | ثبت‌نام دوره‌های قرآنی</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800&display=swap');
+:root{--green:#07513e;--deep:#063b30;--mint:#eaf3e9;--gold:#d6ad55;--cream:#fbf7eb;--ink:#20352d;--muted:#68776e}
+*{box-sizing:border-box}body{margin:0;background:#f6f5ef;color:var(--ink);font-family:Vazirmatn,Tahoma,sans-serif;line-height:1.8}
+a{color:inherit;text-decoration:none}.wrap{width:min(1120px,92%);margin:auto}
+header{background:linear-gradient(110deg,#052f27,#08634a);color:white;border-bottom:3px solid var(--gold);position:sticky;top:0;z-index:5}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:13px 0}.brand{display:flex;align-items:center;gap:12px;font-weight:800}.mark{width:46px;height:46px;border:1px solid #e5c77d;border-radius:15px;display:grid;place-items:center;color:#f0d58f;font-size:24px;background:#ffffff12;overflow:hidden}.mark img{width:100%;height:100%;object-fit:contain}.brand small{display:block;font-size:11px;color:#d9e8df;font-weight:400}.links{display:flex;gap:22px;font-size:13px}.links a:hover{color:#f1d58e}.btn{border:0;border-radius:12px;padding:12px 20px;font:700 14px Vazirmatn;cursor:pointer;display:inline-block}.primary{background:linear-gradient(135deg,#f0d17c,#d6a943);color:#17382d;box-shadow:0 5px 16px #0002}.outline{border:1px solid #c9d9cd;color:var(--green);background:white}
+.hero{background:radial-gradient(circle at 15% 35%,#26775b 0,#0a4b3a 35%,#062f28 100%);color:white;overflow:hidden;position:relative}
+.hero:before{content:"";position:absolute;inset:0;opacity:.12;background-image:repeating-linear-gradient(45deg,transparent 0 25px,#d7bd72 26px 27px,transparent 28px 50px),repeating-linear-gradient(-45deg,transparent 0 25px,#d7bd72 26px 27px,transparent 28px 50px)}
+.hero-inner{position:relative;display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:35px;padding:65px 0}
+.kicker{color:#efd58f;font-size:13px;font-weight:700}.hero h1{font-size:clamp(30px,5vw,52px);line-height:1.4;margin:10px 0}.hero p{color:#e0eee5;max-width:570px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:25px}.hero-art{min-height:290px;display:grid;place-items:center;position:relative}.arch{width:min(330px,90%);height:300px;border:2px solid #d9b65e;border-radius:170px 170px 22px 22px;background:linear-gradient(145deg,#f8efcf,#d7bd7d);display:grid;place-items:center;box-shadow:0 0 0 9px #d5b35b33,0 25px 60px #001d17aa;color:#07513e;font-size:94px}.arch span{font-size:15px;display:block;text-align:center;font-weight:800;margin-top:-50px}.hero-photo{width:100%;max-width:390px;height:300px;object-fit:cover;border:3px solid var(--gold);border-radius:150px 150px 18px 18px;box-shadow:0 0 0 9px #d5b35b33,0 25px 60px #001d17aa}
+.features{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:-28px;position:relative}.feature{background:#fffdf7;border:1px solid #e9dfc7;border-radius:17px;padding:19px;text-align:center;box-shadow:0 9px 25px #173b2b12}.feature b{display:block;color:var(--green);margin:5px 0}.feature .ico{font-size:28px;color:#b18b39}
+section{padding:55px 0}.section-head{text-align:center;margin-bottom:25px}.section-head h2{color:var(--green);margin:0;font-size:27px}.section-head p{color:var(--muted);margin:5px}
+.course-grid,.teacher-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}.course,.teacher{background:white;border:1px solid #e6e9e2;border-radius:18px;padding:22px;box-shadow:0 8px 25px #173b2b08}.course .tag{display:inline-block;background:#eaf3e9;color:#0b6549;padding:3px 10px;border-radius:30px;font-size:11px}.course h3,.teacher h3{margin:10px 0 4px;color:#164c3a}.course p,.teacher p{font-size:13px;color:var(--muted);min-height:48px}.course button{margin-top:9px}.teacher img{width:100%;height:210px;object-fit:cover;border-radius:12px;background:#edf2eb}.teacher .expertise{color:#956f20;font-size:12px;font-weight:700}
+.register{background:linear-gradient(135deg,#edf4e9,#fff9e9);border-block:1px solid #e6ddc3}.formbox{max-width:780px;margin:auto;background:white;border:1px solid #e6e3d8;border-radius:20px;padding:28px;box-shadow:0 12px 35px #183c2c10}
+form{display:grid;grid-template-columns:1fr 1fr;gap:15px}.field{display:flex;flex-direction:column;gap:6px}.field.full{grid-column:1/-1}label{font-size:13px;font-weight:700;color:#345348}input,select,textarea{width:100%;border:1px solid #d7dfd8;border-radius:10px;padding:12px;font:14px Vazirmatn;background:#fff;color:#20352d}input:focus,select:focus,textarea:focus{outline:2px solid #b6d7c4;border-color:#438567}.hint{font-size:11px;color:#78857d}.success{display:none;background:#e8f5e9;border:1px solid #b9d8c0;padding:13px;border-radius:12px;color:#155a38;margin-bottom:15px}
+footer{background:#052f27;color:#d9e7dc;padding:35px 0 18px}.foot{display:flex;justify-content:space-between;gap:25px;flex-wrap:wrap}.foot strong{color:#f0d58f}.copyright{text-align:center;border-top:1px solid #ffffff20;margin-top:25px;padding-top:15px;font-size:11px;color:#a9c0b1}.admin-link{font-size:12px;color:#f0d58f;text-decoration:underline}
+@media(max-width:760px){.links{display:none}.hero-inner{grid-template-columns:1fr;padding:45px 0 55px;text-align:center}.hero p{margin:auto}.hero-actions{justify-content:center}.hero-art{min-height:210px}.arch{height:220px;width:230px;font-size:70px}.features{grid-template-columns:1fr 1fr}.course-grid,.teacher-grid{grid-template-columns:1fr}.nav{padding:10px 0}.brand{font-size:14px}form{grid-template-columns:1fr}.field.full{grid-column:auto}.formbox{padding:18px}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+ <a class="brand" href="#home"><span class="mark" id="logoMark">۞</span><span><span id="brandName">دارالقرآن بسیج میبد</span><small id="brandTagline">آموزش، ترویج و انس با قرآن کریم</small></span></a>
+ <nav class="links"><a href="#home">صفحه اصلی</a><a href="#courses">دوره‌ها</a><a href="#instructors">اساتید</a><a href="#register">ثبت‌نام</a><a href="#about">درباره ما</a></nav>
+ <a class="btn primary" href="#register">ثبت‌نام آنلاین</a>
+</div></header>
+<main>
+<section class="hero" id="home"><div class="wrap hero-inner">
+ <div><div class="kicker" id="kicker">به خانواده بزرگ قرآنی میبد بپیوندید</div><h1 id="heroTitle">با قرآن، مسیر رشد را آغاز کنیم</h1>
+ <p id="heroText">در دوره‌های آموزشی دارالقرآن بسیج میبد شرکت کنید؛ از آموزش پایه تا مهارت‌های تخصصی تلاوت و حفظ قرآن کریم.</p>
+ <div class="hero-actions"><a class="btn primary" href="#register">شروع ثبت‌نام</a><a class="btn" style="border:1px solid #ffffff70;color:white" href="#courses">مشاهده کلاس‌ها</a></div></div>
+ <div class="hero-art" id="heroArt"><div class="arch">۞<span>وَرَتِّلِ الْقُرْآنَ تَرْتِيلًا</span></div></div>
+</div></section>
+<div class="wrap features">
+ <div class="feature"><div class="ico">📖</div><b>دوره‌های متنوع</b><small>متناسب با سطح شما</small></div><div class="feature"><div class="ico">📝</div><b>ثبت‌نام آسان</b><small>سریع و اینترنتی</small></div><div class="feature"><div class="ico">🎓</div><b>آموزش هدفمند</b><small>با برنامه آموزشی</small></div><div class="feature"><div class="ico">🤝</div><b>پشتیبانی</b><small>راهنمایی داوطلبان</small></div>
+</div>
+<section id="courses"><div class="wrap"><div class="section-head"><h2>دوره‌های آموزشی</h2><p>دوره موردنظر خود را انتخاب و برای ثبت‌نام اقدام کنید.</p></div><div class="course-grid" id="courseGrid"><p>در حال دریافت دوره‌ها...</p></div></div></section>
+<section id="instructors" style="background:#fff"><div class="wrap"><div class="section-head"><h2>اساتید و مربیان</h2><p>آشنایی با مربیان و زمینه فعالیت آنان</p></div><div class="teacher-grid" id="teacherGrid"><p>در حال دریافت اطلاعات...</p></div></div></section>
+<section class="register" id="register"><div class="wrap"><div class="section-head"><h2>فرم پیش‌ثبت‌نام</h2><p>اطلاعات خود را با دقت وارد کنید؛ مسئول ثبت‌نام برای هماهنگی با شما تماس خواهد گرفت.</p></div>
+ <div class="formbox"><div id="success" class="success" role="status"></div>
+ <form id="regForm">
+  <div class="field"><label for="fullname">نام و نام خانوادگی *</label><input id="fullname" name="fullname" required maxlength="80" autocomplete="name" placeholder="مثلاً علی رضایی"></div>
+  <div class="field"><label for="phone">شماره تلفن همراه *</label><input id="phone" name="phone" required inputmode="tel" pattern="09[0-9]{9}" maxlength="11" placeholder="09xxxxxxxxx"><span class="hint">شماره همراه ۱۱ رقمی وارد شود.</span></div>
+  <div class="field"><label for="age">رده سنی *</label><select id="age" name="age" required><option value="">انتخاب کنید</option><option>زیر ۱۲ سال</option><option>۱۲ تا ۱۸ سال</option><option>۱۸ تا ۳۰ سال</option><option>بالای ۳۰ سال</option></select></div>
+  <div class="field"><label for="gender">جنسیت *</label><select id="gender" name="gender" required><option value="">انتخاب کنید</option><option>برادران</option><option>خواهران</option></select></div>
+  <div class="field"><label for="course">دوره موردنظر *</label><select id="course" name="course" required><option value="">ابتدا دوره را انتخاب کنید</option></select></div>
+  <div class="field"><label for="level">سطح فعلی *</label><select id="level" name="level" required><option value="">انتخاب کنید</option><option>مبتدی</option><option>متوسط</option><option>پیشرفته</option><option>اطلاعی ندارم / نیاز به تعیین سطح دارم</option></select></div>
+  <div class="field full"><label for="notes">توضیحات (اختیاری)</label><textarea id="notes" name="notes" rows="3" maxlength="500" placeholder="زمان مناسب تماس یا توضیح ضروری..."></textarea></div>
+  <div class="field full"><label style="display:flex;align-items:center;gap:8px;font-weight:500"><input type="checkbox" required style="width:auto"> صحت اطلاعات واردشده را تأیید می‌کنم و با استفاده از آن برای پیگیری ثبت‌نام موافقم.</label></div>
+  <div class="field full"><button class="btn primary" type="submit">ثبت درخواست پیش‌ثبت‌نام</button><span class="hint">درخواست شما از طریق سامانه ثبت‌نام ارسال می‌شود و فقط برای پیگیری ثبت‌نام استفاده خواهد شد.</span></div>
+ </form></div></div></section>
+<section id="about"><div class="wrap" style="text-align:center"><div class="section-head"><h2 id="aboutTitle">درباره دارالقرآن</h2><p id="aboutText">گامی در مسیر آموزش، ترویج و گسترش فرهنگ نورانی قرآن کریم در شهرستان میبد.</p></div></div></section>
+</main>
+<footer><div class="wrap"><div class="foot"><div><strong id="footerName">دارالقرآن بسیج میبد</strong><div>با قرآن، زندگی زیباتر می‌شود.</div></div><div>راه‌های ارتباطی و نشانی مرکز<br><span id="contactText" style="color:#f0d58f">اطلاعات تماس در نسخه نهایی تکمیل می‌شود.</span></div></div><div class="copyright">© تمامی حقوق این سامانه متعلق به دارالقرآن بسیج میبد است. · <a class="admin-link" href="admin.html">ورود مدیر</a></div></div></footer>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="supabase-config.js"></script>
+<script>
+const defaults={siteName:"دارالقرآن بسیج میبد",tagline:"آموزش، ترویج و انس با قرآن کریم",kicker:"به خانواده بزرگ قرآنی میبد بپیوندید",heroTitle:"با قرآن، مسیر رشد را آغاز کنیم",heroText:"در دوره‌های آموزشی دارالقرآن بسیج میبد شرکت کنید؛ از آموزش پایه تا مهارت‌های تخصصی تلاوت و حفظ قرآن کریم.",aboutTitle:"درباره دارالقرآن",aboutText:"گامی در مسیر آموزش، ترویج و گسترش فرهنگ نورانی قرآن کریم در شهرستان میبد.",contactText:"اطلاعات تماس در نسخه نهایی تکمیل می‌شود.",logoPath:"",heroPath:"",courses:[]};
+const cfg=window.DAROLQURAN_SUPABASE||{};
+const ready=!!(cfg.url&&cfg.anonKey&&!cfg.url.includes("YOUR_PROJECT")&&cfg.anonKey.length>20);
+const sb=ready?window.supabase.createClient(cfg.url,cfg.anonKey):null;
+let currentCourses=[];
+function setText(id,value){const el=document.getElementById(id);if(el)el.textContent=value||""}
+function publicImage(path){if(!path||!sb)return "";return sb.storage.from("site-media").getPublicUrl(path).data.publicUrl}
+function renderCourses(rows){
+ const grid=document.getElementById("courseGrid"),select=document.getElementById("course");grid.replaceChildren();select.innerHTML='<option value="">انتخاب کنید</option>';
+ if(!rows.length){grid.textContent="در حال حاضر دوره‌ای برای نمایش ثبت نشده است.";return}
+ rows.forEach(c=>{const name=c.title||c.name||"";if(!name)return;const card=document.createElement("article");card.className="course";const tag=document.createElement("span");tag.className="tag";tag.textContent=c.audience||c.level||"همه سطوح";const h=document.createElement("h3");h.textContent=name;const p=document.createElement("p");p.textContent=[c.description||c.desc||"",c.schedule||""].filter(Boolean).join(" · ");const b=document.createElement("button");b.className="btn outline";b.type="button";b.textContent="انتخاب این دوره";b.onclick=()=>{select.value=name;location.hash="register"};card.append(tag,h,p,b);grid.append(card);const op=document.createElement("option");op.value=name;op.textContent=name;select.append(op)})
+}
+function renderTeachers(rows){
+ const root=document.getElementById("teacherGrid");root.replaceChildren();if(!rows.length){root.textContent="اطلاعات اساتید به‌زودی تکمیل می‌شود.";return}
+ rows.forEach(t=>{const card=document.createElement("article");card.className="teacher";if(t.photo_path){const img=document.createElement("img");img.src=publicImage(t.photo_path);img.alt="تصویر "+t.full_name;img.loading="lazy";card.append(img)}const h=document.createElement("h3");h.textContent=t.full_name;const ex=document.createElement("div");ex.className="expertise";ex.textContent=t.expertise||"";const p=document.createElement("p");p.textContent=t.biography||"";card.append(h,ex,p);root.append(card)})
+}
+async function loadSite(){
+ let content={...defaults},courses=[],teachers=[];
+ if(sb){
+  const [c,co,ins]=await Promise.all([
+   sb.from("site_content").select("content_value").eq("content_key","homepage").maybeSingle(),
+   sb.from("courses").select("id,title,description,audience,schedule,sort_order").eq("is_published",true).order("sort_order",{ascending:true}),
+   sb.from("instructors").select("id,full_name,expertise,biography,photo_path,sort_order").eq("is_published",true).order("sort_order",{ascending:true})
+  ]);
+  if(c.data?.content_value)content={...content,...c.data.content_value};
+  if(!co.error)courses=co.data||[];if(!ins.error)teachers=ins.data||[];
+ }
+ if(!courses.length){try{const r=await fetch("site-content.json",{cache:"no-store"});if(r.ok){const old=await r.json();content={...content,...old};courses=(old.courses||[]).map((x,i)=>({title:x.name,description:x.desc,audience:x.level,sort_order:i}))}}catch(e){}}
+ setText("brandName",content.siteName);setText("brandTagline",content.tagline);setText("footerName",content.siteName);
+ setText("kicker",content.kicker);setText("heroTitle",content.heroTitle);setText("heroText",content.heroText);setText("aboutTitle",content.aboutTitle);setText("aboutText",content.aboutText);setText("contactText",content.contactText);
+ document.title=(content.siteName||defaults.siteName)+" | ثبت‌نام دوره‌های قرآنی";
+ if(content.logoPath){const mark=document.getElementById("logoMark");mark.innerHTML="";const img=document.createElement("img");img.src=publicImage(content.logoPath);img.alt="نشان دارالقرآن";mark.append(img)}
+ if(content.heroPath){const art=document.getElementById("heroArt");art.innerHTML="";const img=document.createElement("img");img.className="hero-photo";img.src=publicImage(content.heroPath);img.alt="تصویر معرفی دارالقرآن";img.loading="lazy";art.append(img)}
+ renderCourses(courses);renderTeachers(teachers);
+}
+loadSite();
+document.getElementById("regForm").addEventListener("submit",async e=>{
+ e.preventDefault();if(!e.target.reportValidity())return;
+ const msg=document.getElementById("success"),submit=e.target.querySelector('button[type="submit"]');
+ if(!sb){msg.style.display="block";msg.textContent="اتصال سامانه ثبت‌نام برقرار نیست. لطفاً بعداً مراجعه کنید.";return}
+ const f=new FormData(e.target),payload={full_name:String(f.get("fullname")||"").trim(),phone:String(f.get("phone")||"").trim(),age_group:String(f.get("age")||""),gender:String(f.get("gender")||""),course_name:String(f.get("course")||""),level:String(f.get("level")||""),notes:String(f.get("notes")||"").trim()||null};
+ submit.disabled=true;submit.textContent="در حال ارسال...";
+ try{const {error}=await sb.from("enrollments").insert(payload);if(error)throw error;msg.style.display="block";msg.textContent="درخواست پیش‌ثبت‌نام شما با موفقیت ارسال شد. مسئول ثبت‌نام برای هماهنگی با شما تماس خواهد گرفت.";e.target.reset()}
+ catch(err){console.error(err);msg.style.display="block";msg.textContent="ارسال درخواست انجام نشد. لطفاً چند دقیقه دیگر تلاش کنید یا با دارالقرآن تماس بگیرید."}
+ finally{submit.disabled=false;submit.textContent="ثبت درخواست پیش‌ثبت‌نام"}
+});
+</script></body></html>
